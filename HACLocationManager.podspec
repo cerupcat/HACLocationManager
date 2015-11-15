@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.ios.frameworks = 'CoreLocation','MapKit'
+  s.tvos.deployment_target = '9.0'
 
 end
